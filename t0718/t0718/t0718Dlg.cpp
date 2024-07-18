@@ -68,6 +68,8 @@ BEGIN_MESSAGE_MAP(Ct0718Dlg, CDialogEx)
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_MSG_BTN, &Ct0718Dlg::OnBnClickedMsgBtn)
 	ON_LBN_SELCHANGE(IDC_LIST2, &Ct0718Dlg::OnLbnSelchangeList2)
+	ON_BN_CLICKED(IDC_BUTTON2, &Ct0718Dlg::OnBnClickedButton2)
+	ON_BN_CLICKED(IDC_RESET_BTN, &Ct0718Dlg::OnBnClickedResetBtn)
 END_MESSAGE_MAP()
 
 
@@ -169,4 +171,16 @@ void Ct0718Dlg::OnBnClickedMsgBtn()
 void Ct0718Dlg::OnLbnSelchangeList2()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+}
+
+
+void Ct0718Dlg::OnBnClickedButton2()
+{
+	m_event_list.ResetContent();
+}
+
+
+void Ct0718Dlg::OnBnClickedResetBtn()
+{
+	m_event_list.ResetContent();
 }

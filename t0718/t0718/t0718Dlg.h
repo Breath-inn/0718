@@ -36,4 +36,6 @@ public:
 	afx_msg void OnBnClickedMsgBtn();
 	afx_msg void OnLbnSelchangeList2();
 	CListBox m_event_list;
+	afx_msg void OnBnClickedButton2();
+	afx_msg void OnBnClickedResetBtn();
 };

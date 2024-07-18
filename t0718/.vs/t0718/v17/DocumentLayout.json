@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|solutionrelative:t0718\\t0718Dlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|C:\\t0718\\t0718\\t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0084 2$  \u0022     ",
-      "RelativeMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|solutionrelative:t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0084 2$  \u0022     "
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|C:\\t0718\\t0718\\t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       0 ! 2$  \u0022     ",
       "RelativeMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|solutionrelative:t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       0 ! 2$  \u0022     "
     },
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -46,22 +42,12 @@
               "RelativeToolTip": "t0718\\t0718.rc - IDD_T0718_DIALOG - Dialog",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-07-18T06:07:42.027Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " - IDD_T0718_DIALOG - Dialog"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "t0718.rc - IDD_ABOUTBOX - Dialog",
-              "DocumentMoniker": "C:\\t0718\\t0718\\t0718\\t0718.rc",
-              "RelativeDocumentMoniker": "t0718\\t0718.rc",
-              "ToolTip": "C:\\t0718\\t0718\\t0718\\t0718.rc - IDD_ABOUTBOX - Dialog",
-              "RelativeToolTip": "t0718\\t0718.rc - IDD_ABOUTBOX - Dialog",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-18T06:20:04.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "t0718.rc - VS_VERSION_INFO - Version",
               "DocumentMoniker": "C:\\t0718\\t0718\\t0718\\t0718.rc",
               "RelativeDocumentMoniker": "t0718\\t0718.rc",
@@ -72,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "t0718.rc - String Table",
               "DocumentMoniker": "C:\\t0718\\t0718\\t0718\\t0718.rc",
               "RelativeDocumentMoniker": "t0718\\t0718.rc",
@@ -87,9 +73,9 @@
               "Title": "t0718Dlg.cpp",
               "DocumentMoniker": "C:\\t0718\\t0718\\t0718\\t0718Dlg.cpp",
               "RelativeDocumentMoniker": "t0718\\t0718Dlg.cpp",
-              "ToolTip": "C:\\t0718\\t0718\\t0718\\t0718Dlg.cpp",
-              "RelativeToolTip": "t0718\\t0718Dlg.cpp",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAvwKQAAAAfAAAA",
+              "ToolTip": "C:\\t0718\\t0718\\t0718\\t0718Dlg.cpp*",
+              "RelativeToolTip": "t0718\\t0718Dlg.cpp*",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAALIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-18T06:17:09.716Z",
               "EditorCaption": ""
@@ -104,7 +90,8 @@
               "RelativeToolTip": "t0718\\t0718Dlg.h",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T06:16:23.852Z"
+              "WhenOpened": "2024-07-18T06:16:23.852Z",
+              "EditorCaption": ""
             }
           ]
         }
