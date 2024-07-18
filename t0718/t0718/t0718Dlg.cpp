@@ -177,10 +177,12 @@ void Ct0718Dlg::OnLbnSelchangeList2()
 void Ct0718Dlg::OnBnClickedButton2()
 {
 	m_event_list.ResetContent();
+	AfxMessageBox(_T("Reset content!")); //내용 추가
 }
 
 
 void Ct0718Dlg::OnBnClickedResetBtn()
 {
 	m_event_list.ResetContent();
+	AfxMessageBox(_T("Reset content!")); //내용 추가
 }
