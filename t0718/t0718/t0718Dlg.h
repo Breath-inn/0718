@@ -34,4 +34,6 @@ protected:
 public:
 	afx_msg void OnBnClickedButton1();
 	afx_msg void OnBnClickedMsgBtn();
+	afx_msg void OnLbnSelchangeList2();
+	CListBox m_event_list;
 };

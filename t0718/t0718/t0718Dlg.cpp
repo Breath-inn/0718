@@ -59,6 +59,7 @@ Ct0718Dlg::Ct0718Dlg(CWnd* pParent /*=nullptr*/)
 void Ct0718Dlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_LIST2, m_event_list);
 }
 
 BEGIN_MESSAGE_MAP(Ct0718Dlg, CDialogEx)
@@ -66,6 +67,7 @@ BEGIN_MESSAGE_MAP(Ct0718Dlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_MSG_BTN, &Ct0718Dlg::OnBnClickedMsgBtn)
+	ON_LBN_SELCHANGE(IDC_LIST2, &Ct0718Dlg::OnLbnSelchangeList2)
 END_MESSAGE_MAP()
 
 
@@ -159,4 +161,12 @@ HCURSOR Ct0718Dlg::OnQueryDragIcon()
 void Ct0718Dlg::OnBnClickedMsgBtn()
 {
 	AfxMessageBox(_T("Button clicked!"));
+	int index = m_event_list.InsertString(-1, _T("Button clicked!!"));
+	m_event_list.SetCurSel(index);
+}
+
+
+void Ct0718Dlg::OnLbnSelchangeList2()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 }
