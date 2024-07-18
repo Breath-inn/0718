@@ -65,7 +65,6 @@ BEGIN_MESSAGE_MAP(Ct0718Dlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
-	ON_BN_CLICKED(IDC_BUTTON1, &Ct0718Dlg::OnBnClickedButton1)
 	ON_BN_CLICKED(IDC_MSG_BTN, &Ct0718Dlg::OnBnClickedMsgBtn)
 END_MESSAGE_MAP()
 
@@ -155,12 +154,6 @@ HCURSOR Ct0718Dlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
-
-
-void Ct0718Dlg::OnBnClickedButton1()
-{
-	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
-}
 
 
 void Ct0718Dlg::OnBnClickedMsgBtn()

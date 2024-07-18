@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\t0718\\t0718\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CB3922E-369D-49A4-9C64-F55ED4666A79}|t0718\\t0718.vcxproj|C:\\t0718\\t0718\\t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     ",
-      "RelativeMoniker": "D:0:0:{8CB3922E-369D-49A4-9C64-F55ED4666A79}|t0718\\t0718.vcxproj|solutionrelative:t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     "
+      "AbsoluteMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|C:\\t0718\\t0718\\t0718\\t0718Dlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|solutionrelative:t0718\\t0718Dlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|C:\\t0718\\t0718\\t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     ",
+      "RelativeMoniker": "D:0:0:{CA4FB262-7FE7-4075-BF48-78C6144D9E75}|t0718\\t0718.vcxproj|solutionrelative:t0718\\t0718.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       % \u0086 2$  \u0022     "
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "t0718.rc - IDD_T0718_DIALOG - Dialog",
+              "Title": "t0718Dlg.cpp",
+              "DocumentMoniker": "C:\\t0718\\t0718\\t0718\\t0718Dlg.cpp",
+              "RelativeDocumentMoniker": "t0718\\t0718Dlg.cpp",
+              "ToolTip": "C:\\t0718\\t0718\\t0718\\t0718Dlg.cpp",
+              "RelativeToolTip": "t0718\\t0718Dlg.cpp",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAtwJYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-18T06:08:58.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "t0718.rc",
               "DocumentMoniker": "C:\\t0718\\t0718\\t0718\\t0718.rc",
               "RelativeDocumentMoniker": "t0718\\t0718.rc",
-              "ToolTip": "C:\\t0718\\t0718\\t0718\\t0718.rc - IDD_T0718_DIALOG - Dialog*",
-              "RelativeToolTip": "t0718\\t0718.rc - IDD_T0718_DIALOG - Dialog*",
+              "ToolTip": "C:\\t0718\\t0718\\t0718\\t0718.rc",
+              "RelativeToolTip": "t0718\\t0718.rc",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-18T05:39:56.965Z",
-              "EditorCaption": " - IDD_T0718_DIALOG - Dialog"
+              "WhenOpened": "2024-07-18T06:07:42.027Z"
             }
           ]
         }
